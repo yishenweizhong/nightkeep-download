@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f7f2">
+  <meta name="description" content="下载夜航常亮：轻巧的 Mac 菜单栏工具，防止开盖电脑因空闲而熄屏、休眠，支持定时结束和每天固定时段。">
+  <title>夜航常亮 · Mac 下载</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#download">跳到下载</a>
+  <header class="site-header wrap">
+    <a class="brand" href="./" aria-label="夜航常亮首页">
+      <svg viewBox="0 0 40 40" width="36" height="36" aria-hidden="true">
+        <rect width="40" height="40" rx="12" fill="#223d67"/>
+        <path d="M25.8 26.1A11.4 11.4 0 0 1 16 8.8a11.6 11.6 0 1 0 14.7 16.1 11.5 11.5 0 0 1-4.9 1.2Z" fill="#f5e8bc"/>
+        <path d="m28 8 .8 2.2L31 11l-2.2.8L28 14l-.8-2.2L25 11l2.2-.8Z" fill="#f5e8bc"/>
+      </svg>
+      <span>夜航常亮</span>
+    </a>
+    <a class="header-link" href="#install">安装说明 <span aria-hidden="true">↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero wrap" aria-labelledby="headline">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> 为 Mac 的夜间任务准备</p>
+        <h1 id="headline">任务继续。<br>屏幕保持常亮。</h1>
+        <p class="intro">让开盖的 Mac 在无人操作时保持唤醒。<br class="desktop-break">装好后点一下，就能开启常亮。</p>
+        <div id="download" class="download-area">
+          <a id="download-dmg" class="download-button" href="downloads/NightKeep-1.0.0-universal.dmg" download="夜航常亮-1.0.0-universal.dmg">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M12 3v12m-5-5 5 5 5-5M4 16v5h16v-5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            下载 Mac 安装包
+            <span class="button-format">DMG</span>
+          </a>
+          <p class="download-meta">v1.0.0 <span>·</span> 603 KB <span>·</span> macOS 12 及以上</p>
+          <p class="secondary-download"><a id="download-zip" href="downloads/NightKeep-1.0.0-universal.zip" download="夜航常亮-1.0.0-universal.zip">ZIP 备用下载</a><span>Apple Silicon 与 Intel 通用包</span></p>
+        </div>
+      </div>
+      <aside class="night-panel" aria-label="常亮方式">
+        <div class="night-sky" aria-hidden="true">
+          <svg class="moon" viewBox="0 0 180 180" fill="none">
+            <path d="M133 121A62 62 0 0 1 80 29a63 63 0 1 0 80 87 62 62 0 0 1-27 5Z" fill="#f3e8c8"/>
+            <path d="m137 31 2 7 7 2-7 2-2 7-2-7-7-2 7-2Z" fill="#f3e8c8"/>
+            <circle cx="43" cy="28" r="2" fill="#c7d6ed"/>
+            <circle cx="161" cy="77" r="2" fill="#c7d6ed"/>
+          </svg>
+          <p>给任务多一点时间</p>
+        </div>
+        <div class="mode-list">
+          <div><span class="mode-number">01</span><div><h2>持续常亮</h2><p>直到你手动停止</p></div><span class="mode-icon" aria-hidden="true">∞</span></div>
+          <div><span class="mode-number">02</span><div><h2>定时结束</h2><p>任务结束后，按时停止</p></div><span class="mode-icon" aria-hidden="true">◷</span></div>
+          <div><span class="mode-number">03</span><div><h2>每天固定时段</h2><p>例如晚上 22:00 至次日 08:00</p></div><span class="mode-icon" aria-hidden="true">↻</span></div>
+        </div>
+      </aside>
+    </section>
+
+    <section id="install" class="installation wrap" aria-labelledby="install-heading">
+      <div class="section-heading"><p class="eyebrow">开始使用</p><h2 id="install-heading">三步，准备好今晚的任务。</h2></div>
+      <ol class="steps">
+        <li><span class="step-number">1</span><h3>下载并安装</h3><p>打开 DMG，把“夜航常亮”拖入“应用程序”。ZIP 包解压后也可直接安装。</p></li>
+        <li><span class="step-number">2</span><h3>选择常亮方式</h3><p>打开应用，选择持续、定时结束或每天固定时段，点击“开启常亮”。</p></li>
+        <li><span class="step-number">3</span><h3>确认状态，运行任务</h3><p>看到“常亮已开启”和“两项请求已确认”后，保持电脑开盖并接通电源。</p></li>
+      </ol>
+      <p class="menu-note">关掉主窗口后，应用仍在菜单栏运行。点击月亮图标可重新打开。</p>
+    </section>
+
+    <section class="notes wrap" aria-label="下载与使用说明">
+      <details>
+        <summary>安装和使用前需要了解什么？<span aria-hidden="true">+</span></summary>
+        <div class="details-content">
+          <p>当前安装包已通过本地签名校验，尚未经过 Apple 公证。其他电脑可能出现安装拦截；公司电脑请按 IT 审核流程安装。</p>
+          <p>应用防止空闲熄屏和休眠。企业强制锁屏、合盖、手动休眠和低电量保护仍可能中断任务。每天计划需要应用保持运行。</p>
+          <p>通用包包含 Apple Silicon 和 Intel 程序，Intel 尚未在实机上验收。跨设备整夜运行的可靠性仍需验证。</p>
+          <a href="downloads/使用说明.txt" target="_blank" rel="noopener">查看完整使用说明 <span aria-hidden="true">↗</span></a>
+        </div>
+      </details>
+      <details>
+        <summary>如何核对安装包？<span aria-hidden="true">+</span></summary>
+        <div class="details-content">
+          <p>DMG 文件大小为 602,828 字节，SHA256 校验值为：</p>
+          <code>5f117229864169b25feeae5d2c2f47496cc3bf4b51395023f0e4ea3b618e875d</code>
+          <a href="downloads/SHA256.txt" download>下载 DMG 与 ZIP 校验文件 <span aria-hidden="true">↓</span></a>
+        </div>
+      </details>
+    </section>
+  </main>
+  <footer class="site-footer wrap">
+    <span>夜航常亮 <span class="footer-en">NightKeep</span></span>
+    <span>本地运行 · 无需账号 · 应用不联网</span>
+  </footer>
+</body>
+</html>
