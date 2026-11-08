@@ -1,0 +1,19 @@
+{
+  "product": "NightKeep / 夜航常亮",
+  "version": "1.0.0",
+  "minimumMacOS": "12.0",
+  "architectures": ["arm64", "x86_64"],
+  "appleNotarized": false,
+  "files": [
+    {
+      "path": "downloads/NightKeep-1.0.0-universal.dmg",
+      "bytes": 602828,
+      "sha256": "5f117229864169b25feeae5d2c2f47496cc3bf4b51395023f0e4ea3b618e875d"
+    },
+    {
+      "path": "downloads/NightKeep-1.0.0-universal.zip",
+      "bytes": 321006,
+      "sha256": "f63c440a894b3e11a554fb3e944294a38bef4d3cf9ca7a85769fe53aae94b66a"
+    }
+  ]
+}
